@@ -1,5 +1,9 @@
 {
   "name": "ERICLuoYuu-dev-workflow",
+  "owner": {
+    "name": "ERICLuoYuu",
+    "email": ""
+  },
   "plugins": [
     {
       "name": "dev-workflow",
