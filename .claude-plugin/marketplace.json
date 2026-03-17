@@ -1,0 +1,11 @@
+{
+  "name": "ERICLuoYuu-dev-workflow",
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./",
+      "description": "Strict phased development workflow with plan tracking, review loops, and verification gates over ECC agents",
+      "skills": ["./"]
+    }
+  ]
+}
