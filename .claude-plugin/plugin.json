@@ -1,0 +1,6 @@
+{
+  "name": "dev-workflow",
+  "version": "1.0.0",
+  "description": "Strict phased development workflow with plan tracking, review loops, and verification gates over ECC agents",
+  "skills": ["./"]
+}
