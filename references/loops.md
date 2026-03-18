@@ -66,15 +66,14 @@ The code-reviewer MUST evaluate these in addition to standard code quality:
 
 2. **Unlisted changes**: Are there code changes that don't correspond
    to any plan step or logged deviation? Flag as MEDIUM.
-   (This catches accidental scope creep or forgotten deviation logging.)
 
 3. **Deviation justification**: For each entry in deviations.md,
    is the reason valid and the impact accurately described? Flag
    unjustified or under-documented deviations as MEDIUM.
 
 4. **Plan intent preservation**: Did the deviations collectively
-   compromise the original goal? This is a judgment call — flag as
-   HIGH if the implementation no longer achieves what was planned.
+   compromise the original goal? Flag as HIGH if the implementation
+   no longer achieves what was planned.
 
 Tell the code-reviewer explicitly:
 ```
@@ -156,9 +155,6 @@ For each acceptance criterion in .claude/plan/plan.md:
   → Which test(s) verify this criterion?
   → If no test exists → flag as HIGH finding in test review
 ```
-
-This ensures the test suite directly validates the plan,
-not just random code paths.
 
 ---
 
